@@ -1,6 +1,12 @@
+import './Layout.scss';
 
-// TODO sækja Sass
+export const Layout = (props) => {
+  const { children } = props;
+  return (
+    <main className="main">
+      {children}
+    </main>
+  );
+};
 
-export function Layout({ /* todo senda inn efni */ }) {
-  // TODO setja upp layout fyrir vef
-}
+export default Layout;

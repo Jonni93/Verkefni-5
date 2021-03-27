@@ -1,4 +1,9 @@
+import NewsList from '../components/news-list/NewsList';
 
-export function NewsPage() {
-  // TODO útfæra fréttasíðu
-}
+const NewsPage = () => (
+  <div>
+    <NewsList />
+  </div>
+);
+
+export default NewsPage;

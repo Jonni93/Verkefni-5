@@ -1,4 +1,11 @@
+import { Link } from 'react-router-dom';
 
-export function NotFound() {
-  // TODO útfæra 404 síðu
-}
+const NotFound = () => (
+  <div className="NotFound">
+    <h1>Síða Finnst ekki</h1>
+    <Link style={{ fontWeight: 'bold', color: 'Black', textDecoration: 'none' }} to="/">Til Baka</Link>
+  </div>
+
+);
+
+export default NotFound;

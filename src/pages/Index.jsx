@@ -1,4 +1,9 @@
+import News from './News';
 
-export function Index() {
-  // TODO útfæra yfirlitssíðu
-}
+export const Index = () => (
+  <section>
+
+    <News />
+  </section>
+);
+export default Index;
